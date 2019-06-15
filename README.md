@@ -37,7 +37,7 @@
 
 <div align="center">
 
-# Loggin'JS ![](https://img.shields.io/badge/PRs-welcome-green.svg) <!-- omit in toc -->
+# Loggin'JS MongoDB Plugin ![](https://img.shields.io/badge/PRs-welcome-green.svg) <!-- omit in toc -->
 
 <!-- ![](./.github/code-example.png) -->
 
@@ -50,27 +50,11 @@
 [![NPM quality][code-quality-badge]][code-quality-link]  
   
 <p>
-An easy and customizable logger for NodeJS.  
-If you want to log easily or want to create som complex loggin system, this is the tool for you!
+A little MongoDB plugin for loggin-js, save your logs centralized in a database. And later retrieval
 </p>
-
-
-
-[`🔗 Logger`][docs:logger]
-[`🔗 Notifier`][docs:notifier]
-[`🔗 Log`][docs:log]
-[`🔗 Severity`][docs:severity]
-[`🔗 Formatter`][docs:formatter]  
-[`🔗 .logger`][docs:helper:logger]
-[`🔗 .notifier`][docs:helper:notifier]
-[`🔗 .severity`][docs:helper:severity]
-[`🔗 .formatter`][docs:helper:formatter]
-
 </div>
 
 ****
-
-
 
 
 ## Table Of Content <!-- omit in toc -->
@@ -78,7 +62,6 @@ If you want to log easily or want to create som complex loggin system, this is t
 - [Installing](#installing)
 - [Importing](#importing)
 - [Usage](#usage)
-- [Examples](#examples)
 - [Collaborating](#collaborating)
 
 ## Features
@@ -107,8 +90,24 @@ import logginCentralizer from 'loggin-js-mongodb';
 
 
 ## Usage
+```js
+const logginCentralizer = require('loggin-js-mongodb');
+loggin.use(logginCentralizer);
 
-## Examples
+let mongodb = loggin
+    .notifier('mongodb', { dbUrl: 'mongodb://0.0.0.0:27017/logs' })
+    .color(true)
+    .level('debug')
+    .formatter('detailed')
+    .init();
+
+let logger = loggin.logger();
+logger.setNotifiers([csol, mongodb]);
+
+...
+let logs = mongodb.fetch({ 'level.name': 'ERROR' });
+
+```
 
 ## Collaborating
 Pull requests are welcome, as well as any other type of contribution. 
