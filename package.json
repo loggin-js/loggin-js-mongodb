@@ -1,6 +1,6 @@
 {
   "name": "loggin-js-mongodb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A MongoDB plugin for loggin-js, centralizes ans saves logs on MongoDB",
   "main": "./src/loggin-mongo.js",
   "author": {
