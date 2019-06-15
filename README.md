@@ -45,8 +45,6 @@
 [![Downloads][downloads-badge]][downloads-link]
 [![Dependencies][dependencies-badge]][dependencies-link]
 [![Known Vulnerabilities][vulnerabilities-badge]][vulnerabilities-link]  
-[![CircleCI](https://circleci.com/gh/nombrekeff/loggin-js-mongodb.svg?style=svg)](https://circleci.com/gh/nombrekeff/loggin-js-mongodb)
-[![build status][travis-image]][travis-url]
 [![NPM quality][code-quality-badge]][code-quality-link]  
   
 <p>
