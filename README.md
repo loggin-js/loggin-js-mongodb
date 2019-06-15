@@ -78,19 +78,19 @@ yarn install loggin-js-mongodb
 ## Importing
 Importing in node:
 ```js
-const logginCentralizer = require('loggin-js-mongodb');
+const logginMongo = require('loggin-js-mongodb');
 ```
 
 Importing using ES6 import:
 ```js
-import logginCentralizer from 'loggin-js-mongodb';
+import logginMongo from 'loggin-js-mongodb';
 ```
 
 
 ## Usage
 ```js
-const logginCentralizer = require('loggin-js-mongodb');
-loggin.use(logginCentralizer);
+const logginMongo = require('loggin-js-mongodb');
+loggin.use(logginMongo);
 
 let mongodb = loggin
     .notifier('mongodb', { dbUrl: 'mongodb://0.0.0.0:27017/logs' })
