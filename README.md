@@ -48,7 +48,7 @@
 [![NPM quality][code-quality-badge]][code-quality-link]  
   
 <p>
-A little MongoDB plugin for loggin-js, save your logs centralized in a database. And later retrieval
+A little MongoDB plugin for [loggin-js](https://github.com/loggin-js/loggin-js), save your logs centralized in a database. And later retrieval
 </p>
 </div>
 
