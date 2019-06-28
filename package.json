@@ -9,10 +9,10 @@
     "url": "https://github.com/nombrekeff"
   },
   "bugs": {
-    "url": "https://github.com/nombrekeff/loggin-js-mongodb/issues/new/choose",
+    "url": "https://github.com/loggin-js/loggin-js-mongodb/issues/new/choose",
     "email": "manoloedge96@gmail.com"
   },
-  "homepage": "https://github.com/nombrekeff/loggin-js-mongodb",
+  "homepage": "https://github.com/loggin-js/loggin-js-mongodb",
   "license": "MIT",
   "scripts": {
     "test": "jest"

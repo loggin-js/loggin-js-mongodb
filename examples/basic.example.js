@@ -1,7 +1,7 @@
-const logginCentralizer = require('../src/loggin-mongo');
+const logginMongo = require('../src/loggin-mongo');
 const loggin = require('loggin-js');
 
-loggin.use(logginCentralizer);
+loggin.use(logginMongo);
 
 let csol = loggin
     .notifier('console')
