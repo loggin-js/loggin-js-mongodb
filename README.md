@@ -19,6 +19,8 @@
 [vulnerabilities-badge]: https://snyk.io/test/npm/loggin-js-mongodb/badge.svg?style=flat-square
 [vulnerabilities-link]: https://snyk.io/test/npm/loggin-js-mongodb
 
+[loggin-js-link]: https://github.com/loggin-js/loggin-js
+
 [docs:severity]: https://github.com/nombrekeff/loggin-js-mongodb/wiki/Severity
 [docs:notifier]: https://github.com/nombrekeff/loggin-js-mongodb/wiki/Notifier
 [docs:formatter]: https://github.com/nombrekeff/loggin-js-mongodb/wiki/Formatter
@@ -48,7 +50,7 @@
 [![NPM quality][code-quality-badge]][code-quality-link]  
   
 <p>
-A little MongoDB plugin for [loggin-js](https://github.com/loggin-js/loggin-js), save your logs centralized in a database. And later retrieval
+A little MongoDB plugin for <a href="https://github.com/loggin-js/loggin-js">loggin-js<a>, save your logs centralized in a database. And later retrieval
 </p>
 </div>
 
