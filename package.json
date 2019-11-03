@@ -18,7 +18,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "loggin-js": "^1.1.0",
+    "loggin-js": "^1.3.3",
     "mongoose": "^5.6.0"
   },
   "devDependencies": {
